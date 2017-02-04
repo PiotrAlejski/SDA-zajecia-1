@@ -1,4 +1,8 @@
-package zajecia;
+package zajecia.czwarte;
+
+import com.sun.org.apache.xpath.internal.SourceTree;
+
+import java.util.Scanner;
 
 /**
  * Created by RENT on 2017-02-04.
@@ -14,13 +18,15 @@ public class zajecia4 {
 
         //gdy jest void wywoluje przez nazwe funkcji, jak nizej
         //sumOFLessthan(10);
-        int[] array = {1, 2, 3, 4, 5, 6, 7, 8};
-        statistic(array);
+        //int[] array = {1, 2, 3, 4, 5, 6, 7, 8};
+        //statistic(array);
 
     }
 
+
+
     public static void printLessThan(int number) {
-        for (int i = 0; i <= number; i++) {
+        for (int i = 0; i < number; i++) {
             System.out.println(i);
         }
     }
