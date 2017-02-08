@@ -123,9 +123,7 @@ public class ZadaniaZeScannerem {
     }
 
     public static int getNumberFromUser() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please insert your number");
-        return scanner.nextInt();
+        return getNumberFromUser("Please insert your number");
     }
 
 
