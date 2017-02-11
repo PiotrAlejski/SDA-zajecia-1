@@ -12,7 +12,9 @@ public class Zajecia8 {
      //   String message = "ALa Ma Kota";
      //   System.out.println(switchCase(message));
      //   System.out.println(sumOfNumberDigital(525273));
-        System.out.println(startsWith2("Ala ma kota", "Ala"));
+     //   System.out.println(startsWith2("Ala ma kota", "Ala"));
+
+
     }
 
     //can throw exception
